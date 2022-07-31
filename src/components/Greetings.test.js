@@ -12,7 +12,8 @@ describe('Greeting component', () => {
     userEvent.click(buttonElement)
 
     // Assert
-    const helloWorldElement = screen.getByText('Hello World!');
-    expect(helloWorldElement).toBeInTheDocument();
+    const outputElement = screen.getByText('Changed!');
+    expect(outputElement).toBeInTheDocument();
   });
-});
+
+  });
