@@ -1,4 +1,5 @@
-const Output = () => {
-
-}
-export default Output;
+const Output = props => {
+    
+  };
+  
+  export default Output;
