@@ -8,6 +8,8 @@ describe('Greeting component', () => {
 
     // Act
     
+    const buttonElement = screen.getByRole('button');
+    userEvent.click(buttonElement)
 
     // Assert
     const helloWorldElement = screen.getByText('Hello World!');
